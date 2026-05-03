@@ -6,7 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
     "langchain-openai>=1.2.1",
-    "langchain-tavily>=0.2.18",
+    "langchain-pinecone>=0.2.13",
     "python-dotenv>=1.2.2",
 ]
